@@ -212,6 +212,9 @@ namespace KSAD_Lab3._0
 
             GraphPane pane = zedGraph.GraphPane;
             pane.CurveList.Clear();
+            pane.XAxis.Title.Text = "Размер массива";
+            pane.YAxis.Title.Text = "Время выполнения";
+            pane.Title.Text = "Исследование скорости работы сортировок";
 
             for (int i = 0; i < list[0].Count(); i++)
             {
