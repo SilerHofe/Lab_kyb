@@ -47,7 +47,6 @@ namespace KSAD_Lab3._0
         {
             selectedArrayTypeIndex = comboBox2.SelectedIndex;
         }
-        //Разобрать в дс с Максом или Даней
         private void SpeedOfSorting(Func<int, int[]> Generate, int size, params Func<int[], int[]>[] SortMethods)
         {
             SetPath();
