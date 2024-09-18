@@ -1,0 +1,6 @@
+C:\Users\sashs\source\repos\KSAD_Lab3.0\sort\bin\Debug\sort.dll
+C:\Users\sashs\source\repos\KSAD_Lab3.0\sort\bin\Debug\sort.pdb
+C:\Users\sashs\source\repos\KSAD_Lab3.0\sort\obj\Debug\sort.csproj.AssemblyReference.cache
+C:\Users\sashs\source\repos\KSAD_Lab3.0\sort\obj\Debug\sort.csproj.CoreCompileInputs.cache
+C:\Users\sashs\source\repos\KSAD_Lab3.0\sort\obj\Debug\sort.dll
+C:\Users\sashs\source\repos\KSAD_Lab3.0\sort\obj\Debug\sort.pdb
