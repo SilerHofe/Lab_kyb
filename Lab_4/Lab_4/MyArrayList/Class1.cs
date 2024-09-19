@@ -128,7 +128,7 @@ namespace MyArrayList
         }
         public void ToArray(T[] array)
         {
-            if(array == null) throw new ArgumentNullException("array");
+            if(array == null) ToArray();
             for (int i = 0; i < array.Length && i < size; i++) array[i] = (T)elementData[i];
         }
         public void AddInd(int index, T element)
