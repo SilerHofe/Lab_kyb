@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -100,7 +100,7 @@ namespace KSAD_Lab3._0
             }
             catch (Exception ex) { Console.WriteLine(ex); };
         }
-
+        int chek = 0;
         private void button1_Click(object sender, EventArgs e)
         {
             SetPath();
@@ -115,14 +115,17 @@ namespace KSAD_Lab3._0
                         case 0:
                             for (int length = 10; length <= Math.Pow(10, pow); length *= 10)
                                 SpeedOfSorting(Generate.CreateArrMod1000, length, Sorting.BoubleSort, Sorting.CombSort,Sorting.InsertionSort, Sorting.SelectionSort, Sorting.ShakerSort, Sorting.GnomeSort);
+                            chek = 1;
                             break;
                         case 1:
                             for (int length = 10; length <= Math.Pow(10, pow + 1); length *= 10)
-                                SpeedOfSorting(Generate.CreateArrMod1000, length, Sorting.BitonicSort, Sorting.ShellSort,Sorting.TreeSort);
+                                SpeedOfSorting(Generate.CreateArrMod1000, length, Sorting.BitonicSort, Sorting.ShellSort/*Sorting.TreeSort*/);
+                            chek = 2;
                             break;
                         case 2:
                             for (int length = 10; length <= Math.Pow(10, pow + 2); length *= 10)
                                 SpeedOfSorting(Generate.CreateArrMod1000, length, Sorting.HeapSort, Sorting.QuickSort, Sorting.CountingSort, Sorting.MergeSort, Sorting.RadixSort);
+                            chek = 3;
                             break;
                     }
                     break;
@@ -134,14 +137,17 @@ namespace KSAD_Lab3._0
                         case 0:
                             for (int length = 10; length <= Math.Pow(10, pow); length *= 10)
                                 SpeedOfSorting(Generate.CreateArrHalfSort, length, Sorting.BoubleSort, Sorting.CombSort, Sorting.InsertionSort, Sorting.SelectionSort, Sorting.ShakerSort, Sorting.GnomeSort);
+                            chek = 1;
                             break;
                         case 1:
                             for (int length = 10; length <= Math.Pow(10, pow + 1); length *= 10)
-                                SpeedOfSorting(Generate.CreateArrHalfSort, length, Sorting.BitonicSort, Sorting.ShellSort, Sorting.TreeSort);
+                                SpeedOfSorting(Generate.CreateArrHalfSort, length, Sorting.BitonicSort, Sorting.ShellSort/*, Sorting.TreeSort*/);
+                            chek = 2;
                             break;
                         case 2:
                             for (int length = 10; length <= Math.Pow(10, pow + 2); length *= 10)
                                 SpeedOfSorting(Generate.CreateArrHalfSort, length, Sorting.HeapSort, Sorting.QuickSort, Sorting.CountingSort, Sorting.MergeSort, Sorting.RadixSort);
+                            chek = 3;
                             break;
                     }
                     break;
@@ -153,14 +159,17 @@ namespace KSAD_Lab3._0
                         case 0:
                             for (int length = 10; length <= Math.Pow(10, pow); length *= 10)
                                 SpeedOfSorting(Generate.ChangeNumberArr, length, Sorting.BoubleSort, Sorting.CombSort, Sorting.InsertionSort, Sorting.SelectionSort, Sorting.ShakerSort, Sorting.GnomeSort);
+                            chek = 1;
                             break;
                         case 1:
                             for (int length = 10; length <= Math.Pow(10, pow + 1); length *= 10)
-                                SpeedOfSorting(Generate.ChangeNumberArr, length, Sorting.BitonicSort, Sorting.ShellSort, Sorting.TreeSort);
+                                SpeedOfSorting(Generate.ChangeNumberArr, length, Sorting.BitonicSort, Sorting.ShellSort/*, Sorting.TreeSort*/);
+                            chek = 2;
                             break;
                         case 2:
                             for (int length = 10; length <= Math.Pow(10, pow + 2); length *= 10)
                                 SpeedOfSorting(Generate.ChangeNumberArr, length, Sorting.HeapSort, Sorting.QuickSort, Sorting.CountingSort, Sorting.MergeSort, Sorting.RadixSort);
+                            chek = 3;
                             break;
                     }
                     break;
@@ -172,14 +181,17 @@ namespace KSAD_Lab3._0
                         case 0:
                             for (int length = 10; length <= Math.Pow(10, pow); length *= 10)
                                 SpeedOfSorting(Generate.PrimeArr, length, Sorting.BoubleSort, Sorting.CombSort, Sorting.InsertionSort, Sorting.SelectionSort, Sorting.ShakerSort, Sorting.GnomeSort);
+                            chek = 1;
                             break;
                         case 1:
                             for (int length = 10; length <= Math.Pow(10, pow + 1); length *= 10)
-                                SpeedOfSorting(Generate.PrimeArr, length, Sorting.BitonicSort, Sorting.ShellSort, Sorting.TreeSort);
+                                SpeedOfSorting(Generate.PrimeArr, length, Sorting.BitonicSort, Sorting.ShellSort/*, Sorting.TreeSort*/);
+                            chek = 2;
                             break;
                         case 2:
                             for (int length = 10; length <= Math.Pow(10, pow + 2); length *= 10)
                                 SpeedOfSorting(Generate.PrimeArr, length, Sorting.HeapSort, Sorting.QuickSort, Sorting.CountingSort, Sorting.MergeSort, Sorting.RadixSort);
+                            chek = 3;
                             break;
                     }
                     break;
@@ -213,9 +225,8 @@ namespace KSAD_Lab3._0
             GraphPane pane = zedGraph.GraphPane;
             pane.CurveList.Clear();
             pane.XAxis.Title.Text = "Размер массива";
-            pane.YAxis.Title.Text = "Время выполнения";
-            pane.Title.Text = "Исследование скорости работы сортировок";
-
+            pane.YAxis.Title.Text = "Время выполнения,мс";
+            pane.Title.Text = "Зависимость времени выполнения сортировок от количества элементов массива";
             for (int i = 0; i < list[0].Count(); i++)
             {
                 PointPairList pointList = new PointPairList();
@@ -227,27 +238,63 @@ namespace KSAD_Lab3._0
                     x *= 10;
                 }
 
-                switch (i)
+                switch (chek)
                 {
-                    case 0:
-                        pane.AddCurve("Method: " + i, pointList, Color.Blue, SymbolType.Default);
-                        break;
                     case 1:
-                        pane.AddCurve("Method: " + i, pointList, Color.Red, SymbolType.Default);
-                        break;
+                        switch(i)
+                        {
+                            case 0:
+                                pane.AddCurve("Пузырек", pointList, Color.Blue, SymbolType.Default);
+                                break;
+                            case 2:
+                                pane.AddCurve("Расчестка", pointList, Color.Green, SymbolType.Default);
+                                break;
+                            case 3:
+                                pane.AddCurve("Вставка", pointList, Color.Red, SymbolType.Default);
+                                break;
+                            case 4:
+                                pane.AddCurve("Выбор", pointList, Color.Orchid, SymbolType.Default);
+                                break;
+                            case 5:
+                                pane.AddCurve("Шейкер", pointList, Color.Black, SymbolType.Default);
+                                break;
+                            case 6:
+                                pane.AddCurve("Гном", pointList, Color.Purple, SymbolType.Default);
+                                break;
+                            }
+                            break;
                     case 2:
-                        pane.AddCurve("Method: " + i, pointList, Color.Black, SymbolType.Default);
+                        switch (i)
+                        {
+                            case 0:
+                                pane.AddCurve("Битонная", pointList, Color.Red, SymbolType.Default);
+                                break;
+                            case 2:
+                                pane.AddCurve("Шелл", pointList, Color.Yellow, SymbolType.Default);
+                                break;
+                        }
                         break;
                     case 3:
-                        pane.AddCurve("Method: " + i, pointList, Color.Yellow, SymbolType.Default);
+                        switch (i)
+                        {
+                            case 0:
+                                pane.AddCurve("Куча", pointList, Color.Red, SymbolType.Default);
+                                break;
+                            case 2:
+                                pane.AddCurve("Быстрая", pointList, Color.Blue, SymbolType.Default);
+                                break;
+                            case 3:
+                                pane.AddCurve("Подсчетом", pointList, Color.Green, SymbolType.Default);
+                                break;
+                            case 4:
+                                pane.AddCurve("Слияние", pointList, Color.Yellow, SymbolType.Default);
+                                break;
+                            case 5:
+                                pane.AddCurve("Поразрядная", pointList, Color.Purple, SymbolType.Default);
+                                break;
+                        }
                         break;
-                    case 4:
-                        pane.AddCurve("Method: " + i, pointList, Color.Green, SymbolType.Default);
-                        break;
-                    case 5:
-                        pane.AddCurve("Method: " + i, pointList, Color.Violet, SymbolType.Default);
-                        break;
-                }
+                } 
             }
             zedGraph.AxisChange();
             zedGraph.Invalidate();
