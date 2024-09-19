@@ -1,0 +1,6 @@
+C:\Users\sashs\source\repos\KSAD_Lab3.0\Generation\bin\Debug\Generation.dll
+C:\Users\sashs\source\repos\KSAD_Lab3.0\Generation\bin\Debug\Generation.pdb
+C:\Users\sashs\source\repos\KSAD_Lab3.0\Generation\obj\Debug\Generation.csproj.AssemblyReference.cache
+C:\Users\sashs\source\repos\KSAD_Lab3.0\Generation\obj\Debug\Generation.csproj.CoreCompileInputs.cache
+C:\Users\sashs\source\repos\KSAD_Lab3.0\Generation\obj\Debug\Generation.dll
+C:\Users\sashs\source\repos\KSAD_Lab3.0\Generation\obj\Debug\Generation.pdb
