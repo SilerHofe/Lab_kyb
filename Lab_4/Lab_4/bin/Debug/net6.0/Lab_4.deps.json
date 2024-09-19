@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Lab_4/1.0.0": {
+        "dependencies": {
+          "MyArrayList": "1.0.0"
+        },
+        "runtime": {
+          "Lab_4.dll": {}
+        }
+      },
+      "MyArrayList/1.0.0": {
+        "runtime": {
+          "MyArrayList.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab_4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyArrayList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
