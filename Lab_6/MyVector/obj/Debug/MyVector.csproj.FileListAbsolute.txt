@@ -1,0 +1,6 @@
+C:\Users\sashs\source\repos\Lab_6\MyVector\obj\Debug\MyVector.csproj.AssemblyReference.cache
+C:\Users\sashs\source\repos\Lab_6\MyVector\obj\Debug\MyVector.csproj.CoreCompileInputs.cache
+C:\Users\sashs\source\repos\Lab_6\MyVector\bin\Debug\MyVector.dll
+C:\Users\sashs\source\repos\Lab_6\MyVector\bin\Debug\MyVector.pdb
+C:\Users\sashs\source\repos\Lab_6\MyVector\obj\Debug\MyVector.dll
+C:\Users\sashs\source\repos\Lab_6\MyVector\obj\Debug\MyVector.pdb
