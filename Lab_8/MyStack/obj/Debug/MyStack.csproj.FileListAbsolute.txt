@@ -1,0 +1,9 @@
+C:\Users\sashs\source\repos\Lab_8\MyStack\bin\Debug\MyStack.dll
+C:\Users\sashs\source\repos\Lab_8\MyStack\bin\Debug\MyStack.pdb
+C:\Users\sashs\source\repos\Lab_8\MyStack\bin\Debug\MyVector.dll
+C:\Users\sashs\source\repos\Lab_8\MyStack\bin\Debug\MyVector.pdb
+C:\Users\sashs\source\repos\Lab_8\MyStack\obj\Debug\MyStack.csproj.AssemblyReference.cache
+C:\Users\sashs\source\repos\Lab_8\MyStack\obj\Debug\MyStack.csproj.CoreCompileInputs.cache
+C:\Users\sashs\source\repos\Lab_8\MyStack\obj\Debug\MyStack.csproj.CopyComplete
+C:\Users\sashs\source\repos\Lab_8\MyStack\obj\Debug\MyStack.dll
+C:\Users\sashs\source\repos\Lab_8\MyStack\obj\Debug\MyStack.pdb
