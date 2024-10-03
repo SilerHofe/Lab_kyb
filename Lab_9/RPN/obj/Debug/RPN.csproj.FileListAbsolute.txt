@@ -1,9 +1,0 @@
-C:\Users\sashs\source\repos\Lab_9\RPN\bin\Debug\RPN.dll
-C:\Users\sashs\source\repos\Lab_9\RPN\bin\Debug\RPN.pdb
-C:\Users\sashs\source\repos\Lab_9\RPN\bin\Debug\MyStack.dll
-C:\Users\sashs\source\repos\Lab_9\RPN\bin\Debug\MyStack.pdb
-C:\Users\sashs\source\repos\Lab_9\RPN\obj\Debug\RPN.csproj.AssemblyReference.cache
-C:\Users\sashs\source\repos\Lab_9\RPN\obj\Debug\RPN.csproj.CoreCompileInputs.cache
-C:\Users\sashs\source\repos\Lab_9\RPN\obj\Debug\RPN.csproj.CopyComplete
-C:\Users\sashs\source\repos\Lab_9\RPN\obj\Debug\RPN.dll
-C:\Users\sashs\source\repos\Lab_9\RPN\obj\Debug\RPN.pdb
