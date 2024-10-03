@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Lab_9/1.0.0": {
+        "dependencies": {
+          "MyStack": "1.0.0",
+          "MyVector": "1.0.0"
+        },
+        "runtime": {
+          "Lab_9.dll": {}
+        }
+      },
+      "MyStack/1.0.0": {
+        "dependencies": {
+          "MyVector": "1.0.0"
+        },
+        "runtime": {
+          "MyStack.dll": {}
+        }
+      },
+      "MyVector/1.0.0": {
+        "runtime": {
+          "MyVector.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab_9/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyStack/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyVector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
