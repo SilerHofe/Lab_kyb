@@ -1,0 +1,6 @@
+C:\Users\sashs\source\repos\lab_11\Heap\bin\Debug\Heap.dll
+C:\Users\sashs\source\repos\lab_11\Heap\bin\Debug\Heap.pdb
+C:\Users\sashs\source\repos\lab_11\Heap\obj\Debug\Heap.csproj.AssemblyReference.cache
+C:\Users\sashs\source\repos\lab_11\Heap\obj\Debug\Heap.csproj.CoreCompileInputs.cache
+C:\Users\sashs\source\repos\lab_11\Heap\obj\Debug\Heap.dll
+C:\Users\sashs\source\repos\lab_11\Heap\obj\Debug\Heap.pdb
