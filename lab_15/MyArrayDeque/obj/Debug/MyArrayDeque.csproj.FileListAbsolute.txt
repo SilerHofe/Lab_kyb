@@ -1,0 +1,6 @@
+C:\Users\sashs\source\repos\lab_15\MyArrayDeque\bin\Debug\MyArrayDeque.dll
+C:\Users\sashs\source\repos\lab_15\MyArrayDeque\bin\Debug\MyArrayDeque.pdb
+C:\Users\sashs\source\repos\lab_15\MyArrayDeque\obj\Debug\MyArrayDeque.csproj.AssemblyReference.cache
+C:\Users\sashs\source\repos\lab_15\MyArrayDeque\obj\Debug\MyArrayDeque.csproj.CoreCompileInputs.cache
+C:\Users\sashs\source\repos\lab_15\MyArrayDeque\obj\Debug\MyArrayDeque.dll
+C:\Users\sashs\source\repos\lab_15\MyArrayDeque\obj\Debug\MyArrayDeque.pdb

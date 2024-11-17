@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "lab_15/1.0.0": {
+        "dependencies": {
+          "MyArrayDeque": "1.0.0"
+        },
+        "runtime": {
+          "lab_15.dll": {}
+        }
+      },
+      "MyArrayDeque/1.0.0": {
+        "runtime": {
+          "MyArrayDeque.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lab_15/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyArrayDeque/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
