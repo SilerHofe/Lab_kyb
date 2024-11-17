@@ -1,0 +1,14 @@
+C:\Users\sashs\source\repos\lab_16\lab_16\bin\Debug\net6.0\lab_16.exe
+C:\Users\sashs\source\repos\lab_16\lab_16\bin\Debug\net6.0\lab_16.deps.json
+C:\Users\sashs\source\repos\lab_16\lab_16\bin\Debug\net6.0\lab_16.runtimeconfig.json
+C:\Users\sashs\source\repos\lab_16\lab_16\bin\Debug\net6.0\lab_16.dll
+C:\Users\sashs\source\repos\lab_16\lab_16\bin\Debug\net6.0\lab_16.pdb
+C:\Users\sashs\source\repos\lab_16\lab_16\obj\Debug\net6.0\lab_16.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sashs\source\repos\lab_16\lab_16\obj\Debug\net6.0\lab_16.AssemblyInfoInputs.cache
+C:\Users\sashs\source\repos\lab_16\lab_16\obj\Debug\net6.0\lab_16.AssemblyInfo.cs
+C:\Users\sashs\source\repos\lab_16\lab_16\obj\Debug\net6.0\lab_16.csproj.CoreCompileInputs.cache
+C:\Users\sashs\source\repos\lab_16\lab_16\obj\Debug\net6.0\lab_16.dll
+C:\Users\sashs\source\repos\lab_16\lab_16\obj\Debug\net6.0\refint\lab_16.dll
+C:\Users\sashs\source\repos\lab_16\lab_16\obj\Debug\net6.0\lab_16.pdb
+C:\Users\sashs\source\repos\lab_16\lab_16\obj\Debug\net6.0\lab_16.genruntimeconfig.cache
+C:\Users\sashs\source\repos\lab_16\lab_16\obj\Debug\net6.0\ref\lab_16.dll
