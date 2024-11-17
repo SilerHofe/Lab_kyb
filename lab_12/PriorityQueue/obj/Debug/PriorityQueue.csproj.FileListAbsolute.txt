@@ -1,0 +1,9 @@
+C:\Users\sashs\source\repos\lab_12\PriorityQueue\bin\Debug\PriorityQueue.dll
+C:\Users\sashs\source\repos\lab_12\PriorityQueue\bin\Debug\PriorityQueue.pdb
+C:\Users\sashs\source\repos\lab_12\PriorityQueue\bin\Debug\Heap.dll
+C:\Users\sashs\source\repos\lab_12\PriorityQueue\bin\Debug\Heap.pdb
+C:\Users\sashs\source\repos\lab_12\PriorityQueue\obj\Debug\PriorityQueue.csproj.AssemblyReference.cache
+C:\Users\sashs\source\repos\lab_12\PriorityQueue\obj\Debug\PriorityQueue.csproj.CoreCompileInputs.cache
+C:\Users\sashs\source\repos\lab_12\PriorityQueue\obj\Debug\PriorityQueue.csproj.CopyComplete
+C:\Users\sashs\source\repos\lab_12\PriorityQueue\obj\Debug\PriorityQueue.dll
+C:\Users\sashs\source\repos\lab_12\PriorityQueue\obj\Debug\PriorityQueue.pdb

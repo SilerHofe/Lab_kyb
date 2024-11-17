@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "lab_12/1.0.0": {
+        "dependencies": {
+          "Heap": "1.0.0",
+          "PriorityQueue": "1.0.0"
+        },
+        "runtime": {
+          "lab_12.dll": {}
+        }
+      },
+      "Heap/1.0.0": {
+        "runtime": {
+          "Heap.dll": {}
+        }
+      },
+      "PriorityQueue/1.0.0": {
+        "dependencies": {
+          "Heap": "1.0.0"
+        },
+        "runtime": {
+          "PriorityQueue.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lab_12/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Heap/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PriorityQueue/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
