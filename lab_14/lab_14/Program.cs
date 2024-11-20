@@ -1,4 +1,4 @@
-﻿using Program;
+using Program;
 using System;
 using System.Drawing;
 using System.Reflection.Metadata.Ecma335;
@@ -94,9 +94,10 @@ namespace Program
             if (Contains(o))
             {
                 int k = FindIndex(o);
-                T[] array = new T[tail--];
+                int tmp = tail - 1;
+                T[] array = new T[tmp];
                 for (int i = 0; i < k; i++) array[i] = elements[i];
-                for (int i = k + 1; i < tail--; i++) array[i] = elements[i];
+                for (int i = k; i < tmp; i++) array[i] = elements[i+1];
                 elements = array;
                 tail--;
             }
@@ -281,7 +282,11 @@ namespace Program
         }
         public void Print()
         {
-            Console.WriteLine(this);
+            for (int i = 0;i<tail;i++)
+            {
+                Console.Write($"{elements[i]} ");
+            }
+            Console.WriteLine();
         }
         public override string ToString()
         {
@@ -302,7 +307,7 @@ namespace Program
             MyArrayDeque<int> list = new MyArrayDeque<int>(array);
             list.Add(2);
             list.Print();
-            list.Remove(2);
+            list.Remove(4);
             list.Print();
         }
     }
