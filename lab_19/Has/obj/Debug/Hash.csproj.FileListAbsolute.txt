@@ -1,0 +1,6 @@
+C:\Users\sashs\source\repos\lab_19\Has\bin\Debug\Has.dll
+C:\Users\sashs\source\repos\lab_19\Has\bin\Debug\Has.pdb
+C:\Users\sashs\source\repos\lab_19\Has\obj\Debug\Hash.csproj.AssemblyReference.cache
+C:\Users\sashs\source\repos\lab_19\Has\obj\Debug\Hash.csproj.CoreCompileInputs.cache
+C:\Users\sashs\source\repos\lab_19\Has\obj\Debug\Has.dll
+C:\Users\sashs\source\repos\lab_19\Has\obj\Debug\Has.pdb
