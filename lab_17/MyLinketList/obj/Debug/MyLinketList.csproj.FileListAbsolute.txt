@@ -1,0 +1,6 @@
+C:\Users\sashs\source\repos\lab_17\MyLinketList\obj\Debug\MyLinketList.csproj.AssemblyReference.cache
+C:\Users\sashs\source\repos\lab_17\MyLinketList\obj\Debug\MyLinketList.csproj.CoreCompileInputs.cache
+C:\Users\sashs\source\repos\lab_17\MyLinketList\bin\Debug\MyLinketList.dll
+C:\Users\sashs\source\repos\lab_17\MyLinketList\bin\Debug\MyLinketList.pdb
+C:\Users\sashs\source\repos\lab_17\MyLinketList\obj\Debug\MyLinketList.dll
+C:\Users\sashs\source\repos\lab_17\MyLinketList\obj\Debug\MyLinketList.pdb
