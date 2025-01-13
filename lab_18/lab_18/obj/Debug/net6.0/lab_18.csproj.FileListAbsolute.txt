@@ -1,0 +1,14 @@
+C:\Users\sashs\source\repos\lab_18\lab_18\bin\Debug\net6.0\lab_18.exe
+C:\Users\sashs\source\repos\lab_18\lab_18\bin\Debug\net6.0\lab_18.deps.json
+C:\Users\sashs\source\repos\lab_18\lab_18\bin\Debug\net6.0\lab_18.runtimeconfig.json
+C:\Users\sashs\source\repos\lab_18\lab_18\bin\Debug\net6.0\lab_18.dll
+C:\Users\sashs\source\repos\lab_18\lab_18\bin\Debug\net6.0\lab_18.pdb
+C:\Users\sashs\source\repos\lab_18\lab_18\obj\Debug\net6.0\lab_18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sashs\source\repos\lab_18\lab_18\obj\Debug\net6.0\lab_18.AssemblyInfoInputs.cache
+C:\Users\sashs\source\repos\lab_18\lab_18\obj\Debug\net6.0\lab_18.AssemblyInfo.cs
+C:\Users\sashs\source\repos\lab_18\lab_18\obj\Debug\net6.0\lab_18.csproj.CoreCompileInputs.cache
+C:\Users\sashs\source\repos\lab_18\lab_18\obj\Debug\net6.0\lab_18.dll
+C:\Users\sashs\source\repos\lab_18\lab_18\obj\Debug\net6.0\refint\lab_18.dll
+C:\Users\sashs\source\repos\lab_18\lab_18\obj\Debug\net6.0\lab_18.pdb
+C:\Users\sashs\source\repos\lab_18\lab_18\obj\Debug\net6.0\lab_18.genruntimeconfig.cache
+C:\Users\sashs\source\repos\lab_18\lab_18\obj\Debug\net6.0\ref\lab_18.dll
